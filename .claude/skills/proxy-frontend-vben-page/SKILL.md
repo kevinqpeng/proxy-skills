@@ -1,9 +1,9 @@
 ---
-name: frontend-page
-description: 前端页面规范，包含 SFC 单文件组件组织、data.ts 配置分离、Vben 表格表单规范、Hooks 实例化、国际化与权限指令。适用于基于 vue-vben-admin v5 的项目。当需要新建或修改 Vue 页面、配置表格表单、编写 CRUD 页面时使用此技能。
+name: frontend-vben-page
+description: vue-vben-admin v5 页面开发规范，包含 SFC 单文件组件组织、data.ts 配置分离、Vben 表格表单规范（useVbenVxeGrid、useVbenModal）、Hooks 实例化、国际化与权限指令。专门用于基于 vue-vben-admin v5 框架的项目。当需要新建或修改 Vben 页面、配置 Vben 表格表单、编写 CRUD 页面时使用此技能。
 ---
 
-# 前端页面规范
+# vue-vben-admin 页面开发规范
 
 本项目遵循 `vue-vben-admin` v5 的设计哲学，提倡**配置化与模块化分离**的设计理念，将"纯视图"与"表格/表单配置层"区分开。
 
