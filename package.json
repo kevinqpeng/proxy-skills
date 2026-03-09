@@ -1,0 +1,20 @@
+{
+  "name": "proxy-skills",
+  "version": "1.0.0",
+  "description": "统一管理的 Claude Code 技能集合，专注于 Proxy 项目后端开发的最佳实践",
+  "author": "Proxy Skills Contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/proxy-skills.git"
+  },
+  "keywords": [
+    "claude-code",
+    "skills",
+    "java",
+    "spring-boot",
+    "backend",
+    "api-design",
+    "database"
+  ]
+}
