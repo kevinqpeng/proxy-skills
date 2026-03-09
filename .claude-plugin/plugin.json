@@ -7,27 +7,7 @@
     "email": "pq839556387@gmail.com"
   },
   "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kevinqpeng/proxy-skills.git"
-  },
+  "repository": "https://github.com/kevinqpeng/proxy-skills",
   "homepage": "https://github.com/kevinqpeng/proxy-skills",
-  "skills": [
-    {
-      "name": "proxy-backend-global",
-      "path": ".claude/skills/proxy-backend-global"
-    },
-    {
-      "name": "proxy-backend-database",
-      "path": ".claude/skills/proxy-backend-database"
-    },
-    {
-      "name": "proxy-backend-api-design",
-      "path": ".claude/skills/proxy-backend-api-design"
-    },
-    {
-      "name": "proxy-backend-impl-workflow",
-      "path": ".claude/skills/proxy-backend-impl-workflow"
-    }
-  ]
+  "skills": "./.claude/skills"
 }
