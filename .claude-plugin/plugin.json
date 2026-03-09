@@ -1,14 +1,17 @@
 {
   "name": "proxy-skills",
-  "displayName": "Proxy Skills",
   "version": "1.0.0",
-  "description": "统一管理的 Claude Code 技能集合，专注于 Proxy 项目后端开发的最佳实践",
-  "author": "Proxy Skills Contributors",
+  "description": "精选的开发技能集合，涵盖后端、前端、数据库、API 设计等领域的最佳实践和编码规范",
+  "author": {
+    "name": "Kevin",
+    "email": "pq839556387@gmail.com"
+  },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/kevinqpeng/proxy-skills.git"
   },
+  "homepage": "https://github.com/kevinqpeng/proxy-skills",
   "skills": [
     {
       "name": "proxy-backend-global",

@@ -2,10 +2,12 @@
   "name": "proxy-skills",
   "displayName": "Proxy Skills",
   "version": "1.0.0",
-  "description": "统一管理的 Claude Code 技能集合，专注于 Proxy 项目后端开发的最佳实践。包含 API 设计、数据库规范、全局编码规范和实现工作流等 4 个核心技能。",
+  "description": "精选的开发技能集合，涵盖后端、前端、数据库、API 设计等领域的最佳实践和编码规范。帮助开发者快速构建高质量、可维护的应用程序。",
+  "longDescription": "Proxy Skills 是一个持续更新的技能库，提供跨技术栈的开发指南和最佳实践。当前包含 Java/Spring Boot 后端开发的核心技能，未来将扩展到前端框架、DevOps、测试等更多领域。每个技能都经过实战验证，包含详细的代码示例和使用场景说明。",
   "author": {
-    "name": "Proxy Skills Contributors",
-    "url": "https://github.com/kevinqpeng/proxy-skills"
+    "name": "Kevin",
+    "email": "pq839556387@gmail.com",
+    "url": "https://github.com/kevinqpeng"
   },
   "license": "Apache-2.0",
   "repository": {
@@ -13,51 +15,64 @@
     "url": "https://github.com/kevinqpeng/proxy-skills.git"
   },
   "homepage": "https://github.com/kevinqpeng/proxy-skills",
+  "bugs": {
+    "url": "https://github.com/kevinqpeng/proxy-skills/issues"
+  },
   "keywords": [
+    "skills",
+    "best-practices",
+    "coding-standards",
     "java",
     "spring-boot",
     "backend",
+    "frontend",
     "api-design",
     "database",
-    "coding-standards",
-    "best-practices",
     "crud",
-    "mybatis-plus"
+    "mybatis-plus",
+    "development",
+    "architecture"
   ],
   "categories": [
+    "development",
     "backend",
-    "java",
+    "frontend",
     "database",
-    "api"
+    "api",
+    "architecture"
   ],
   "skills": [
     {
       "name": "proxy-backend-global",
       "displayName": "后端全局编码规范",
-      "description": "包含命名、注释、分层架构、代码风格、依赖注入等全局约束",
-      "path": ".claude/skills/proxy-backend-global"
+      "description": "Java/Spring Boot 全局编码规范，包含命名、注释、分层架构、代码风格、依赖注入等约束",
+      "path": ".claude/skills/proxy-backend-global",
+      "tags": ["java", "spring-boot", "coding-standards"]
     },
     {
       "name": "proxy-backend-database",
       "displayName": "数据库设计与操作规范",
-      "description": "表设计命名、字段类型、索引规则、DO 对象、Mapper 接口等",
-      "path": ".claude/skills/proxy-backend-database"
+      "description": "MySQL 数据库设计规范，包含表设计、字段类型、索引规则、DO 对象、MyBatis Plus 使用等",
+      "path": ".claude/skills/proxy-backend-database",
+      "tags": ["database", "mysql", "mybatis-plus"]
     },
     {
       "name": "proxy-backend-api-design",
       "displayName": "API 接口设计规范",
-      "description": "RESTful URL 约定、Controller 模板、VO 设计、Swagger 文档注解等",
-      "path": ".claude/skills/proxy-backend-api-design"
+      "description": "RESTful API 设计规范，包含 URL 约定、Controller 模板、VO 设计、Swagger 文档注解等",
+      "path": ".claude/skills/proxy-backend-api-design",
+      "tags": ["api", "rest", "swagger"]
     },
     {
       "name": "proxy-backend-impl-workflow",
       "displayName": "Java CRUD 实现工作流",
-      "description": "从需求到完整交付的 10 步标准流程",
-      "path": ".claude/skills/proxy-backend-impl-workflow"
+      "description": "标准化的 CRUD 功能实现流程，从需求分析到完整交付的 10 步工作流",
+      "path": ".claude/skills/proxy-backend-impl-workflow",
+      "tags": ["workflow", "crud", "implementation"]
     }
   ],
   "installation": {
-    "instructions": "复制 .claude/skills/ 目录到你的项目根目录，或复制到 ~/.claude/skills/ 作为全局技能。",
+    "instructions": "通过 Claude Code Plugin Marketplace 安装，或手动复制 .claude/skills/ 目录到项目根目录或 ~/.claude/skills/ 作为全局技能。",
     "requirements": [
       "Claude Code CLI"
     ]

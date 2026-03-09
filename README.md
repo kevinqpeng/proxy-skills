@@ -1,15 +1,22 @@
 # Proxy Skills
 
-统一管理的 Claude Code 技能集合，专注于 Proxy 项目后端开发的最佳实践。
+精选的 Claude Code 技能集合，涵盖后端、前端、数据库、API 设计等领域的最佳实践和编码规范。
 
 ## 📦 技能列表
 
-### Backend Development
+### Backend Development (当前可用)
 
 - **proxy-backend-global** - 后端全局编码规范
 - **proxy-backend-database** - 数据库设计与操作规范
 - **proxy-backend-api-design** - API 接口设计规范
 - **proxy-backend-impl-workflow** - Java CRUD 接口实现工作流
+
+### 即将推出
+
+- **Frontend Development** - 前端开发最佳实践
+- **DevOps & CI/CD** - 部署和持续集成
+- **Testing** - 测试策略和实践
+- **Architecture** - 系统架构设计
 
 ## 🚀 安装方式
 
