@@ -11,9 +11,9 @@ description: >-
 
 ## 技术栈
 
-- **JDK 17** + **Spring Boot 3.5** + **MyBatis Plus** + **MySQL**
+- **JDK 8** + **Spring Boot 2.7** + **MyBatis Plus** + **MySQL**
 - 基础包：`cn.xm.partner`
-- 工具库：Hutool、Lombok、MapStruct、Swagger (SpringDoc OpenAPI 3)
+- 工具库：Hutool、Lombok、MapStruct、Swagger (Springfox 3)
 - 多模块 Maven：`xm-framework`(框架层) / `xm-module-*`(业务模块) / `xm-server`(启动入口)
 
 ## 分层架构
